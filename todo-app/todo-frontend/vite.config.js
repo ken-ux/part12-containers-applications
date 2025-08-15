@@ -8,4 +8,5 @@ export default defineConfig({
     globals: true,
     environment: "jsdom",
   },
+  server: { allowedHosts: ["app"] },
 });
